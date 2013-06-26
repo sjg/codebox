@@ -1,12 +1,20 @@
 #!/usr/bin/env node
 
 var argv = require('optimist')
-  .usage('Usage: --key=[boxKey]')
+  .usage('Usage: --port=[serialport]')
   .argv
 ;
 
+var sPort = argv.port
+
+if(sPort != undefined){
+	sPort.trim();
+}else{
+	sPort = "/dev/tty.usbmodemfa141";
+}
+
 var SerialPort = require("serialport").SerialPort
-var serialPort = new SerialPort("/dev/tty.usbmodemfa131", {
+var serialPort = new SerialPort(sPort, {
   baudrate: 9600
 }, false); // this is the openImmediately flag [default is true]
 
@@ -15,8 +23,8 @@ serialPort.open(function () {
   console.log('Connecting to the Box Server');
   
   var io = require('socket.io-client'),
-  socket = io.connect('http://128.40.111.205', {
-    port: 8008
+  socket = io.connect('http://www.stevenjamesgray.com', {
+    port: 8888
   });
 
   socket.on('connect', function () { 	
