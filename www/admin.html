@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Le Styles--> 
+	<link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">	
+	<link href="./css/box.css" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.ico" />
+
+	<!-- Le Javascript --> 
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+	<script src="./js/jquery.timer.js"></script>
+	<script src="./js/jquery.cookie.js"></script>
+	<script src="./js/xdate.js"></script>
+	<script src="./js/box.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="circle"></div>
+		<div class="jumbotron">
+			<h1>Admin</h1>
+			<p class="lead">
+				How did you get here? No Secrets here!
+			</p>
+		</div>
+
+		<div id='adminBox'>
+			<button type="submit" class="btn btn-danger" id="resetButton">Reset Guesses</button>
+			<button type="submit" class="btn btn-success" id="openButton">Open Box</button>
+			<button type="submit" class="btn btn-warning" id="closeButton">Close Box</button>
+		</div>
+
+		<hr/>
+		<div id="guess">
+			<h3 class="subTitle">Latest Guesses</h3> 
+			<h5 class="rightNumber">Number of Guesses: <span id="number">0<span></h5>
+			<div id="guessBox"></div>
+		</div>
+
+		<hr/>
+
+		<div id="footer">
+			<p>Created by <a href='http://www.stevenjamesgray.com'>Steven Gray</a> at <a href='http://casa.ucl.ac.uk'>UCL CASA</a></p>
+		</div>
+
+	</div>
+
+	<!-- Le Javascript --> 
+	<script src="http://128.40.111.205:8008/socket.io/socket.io.js"></script>
+
+		<script>
+			
+			if(getParameterByName("id") != "1"){
+				document.location.href = 'index.html';
+			}
+
+			$(document).ready(function() {
+    			$("#resetButton").click(function(){
+       				socket.emit('clear');
+	    		}); 
+
+	    		$("#openButton").click(function(){
+       				socket.emit('open');
+	    		}); 
+
+	    		$("#closeButton").click(function(){
+       				socket.emit('close');
+	    		}); 
+			});
+
+		</script>
+	</body>
+</html>

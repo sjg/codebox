@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Le Styles--> 
+	<link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">	
+	<link href="./css/box.css" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.ico" />
+
+	<!-- Le Javascript --> 
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+	<script src="./js/jquery.timer.js"></script>
+	<script src="./js/jquery.cookie.js"></script>
+	<script src="./js/xdate.js"></script>
+	<script src="./js/box.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="circle"></div>
+		<div class="jumbotron">
+			<h1>Whooops</h1>
+			<p class="lead">
+				Your team has been reset. Go back and Try again!  Shhhhhh don't tell anyone about this
+			</p>
+		</div>
+
+		<hr/>
+
+		<div id="footer">
+			<p>Created by <a href='http://www.stevenjamesgray.com'>Steven Gray</a> at <a href='http://casa.ucl.ac.uk'>UCL CASA</a></p>
+		</div>
+	</div>
+
+	<!-- Le Javascript --> 
+	<script src="http://128.40.111.205:8008/socket.io/socket.io.js"></script>
+
+		<script>
+			//Clear the cookie
+			if(($.cookie("team"))){
+				$.removeCookie('team');
+			}
+
+			//Push user back to the index page
+			var timer = $.timer(function() {
+                document.location.href = 'index.html';
+        	});
+
+       		timer.set({ time : 3000, autostart : true });
+
+			var socket = io.connect('http://128.40.111.205:8008');
+
+			socket.on('connect',function() {
+      			$(".circle").addClass("connected");
+    		});
+
+    		socket.on('disconnect',function() {
+     			 $(".circle").removeClass("connected");
+    		});	
+		</script>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Le Styles--> 
+	<link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/box.css" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.ico" />
+
+	<!-- Le Javascript --> 
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+	<script src="./js/jquery.timer.js"></script>
+	<script src="./js/xdate.js"></script>
+	<script src="./js/jquery.cookie.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="circle"></div>
+		<div class="jumbotron">
+			<h1>Can you crack the Password?</h1>
+			<p class="lead">
+				Enter your guess below and Good Luck.
+			</p>
+		</div>
+
+		<div class="passform">
+			<input id="password" type="text" placeholder="" onkeypress="handleKeyPress(event,this.form)">
+			<input id="team" type="text" placeholder="Team Name or Team Number"><br/>
+			<button type="submit" class="btn" id="submitButton" onclick='return submit();'>Submit</button>
+		</div>
+
+		<hr/>
+		<div id="guess">
+			<h3 class="subTitle">Latest Guesses</h3> 
+			<h5 class="rightNumber">Number of Guesses: <span id="number">0<span></h5>
+			<div id="guessBox"></div>
+		</div>
+		<hr/>
+
+		<div id="footer">
+			<p>Created by <a href='http://www.stevenjamesgray.com'>Steven Gray</a> at <a href='http://casa.ucl.ac.uk'>UCL CASA</a></p>
+		</div>
+
+
+	</div>
+
+	<!-- Le Javascript --> 
+	<script src="http://128.40.111.205:8008/socket.io/socket.io.js"></script>
+	<script src="./js/box.js"></script>
+
+	<script>
+		$("#password").focus();
+	</script>
+	</body>
+</html>
