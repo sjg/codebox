@@ -20,7 +20,7 @@ void setup() {
         servoMain.attach(servoPin);
         
         //Set Servo to default -- open
-        servoMain.write(90);
+        servoMain.write(180);
         
         //Set the Pins for the LED Strip
         pinMode(REDPIN, OUTPUT);
@@ -28,8 +28,8 @@ void setup() {
         pinMode(BLUEPIN, OUTPUT);
         
         r = 0;
-        g = 255;
-        b = 0;
+        g = 0;
+        b = 255;
                   
         analogWrite(REDPIN, r);
         analogWrite(GREENPIN, g);
@@ -60,7 +60,7 @@ void loop() {
                   
                   Serial.println("Opening the Box ....");
                   digitalWrite(ledPin, HIGH);
-                  servoMain.write(0);
+                  servoMain.write(180);
                 }else if(incomingByte == 99){          // "wait till serial c"
                    //Set Strip Colour to Red                   
                    r = 255;
@@ -73,7 +73,7 @@ void loop() {
                 
                    Serial.println("Locking the Box ....");
                    digitalWrite(ledPin, LOW);
-                   servoMain.write(90);
+                   servoMain.write(128);
                 }else{
                   //No valid input so set led to low
                   digitalWrite(ledPin, LOW);
