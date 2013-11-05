@@ -32,14 +32,15 @@
   There is always more than one way to solve a problem
 
       THE PASSWORD IS:  
-              _                   _       _    _        _     _   __           _   
-           /\| |/\             /\| |/\ /\| |/\| |      | |   (_)/ _|         | |  
- ___  __ _ \ ` ' /  _ __   ___ \ ` ' / \ ` ' /| |_ __ _| |__  _| |_ _ __ ___ | |_ 
-/ __|/ _` |_     _|| '_ \ / _ \_     _|_     _| __/ _` | '_ \| |  _| '_ ` _ \| __|
-\__ \ (_| |/ , . \_| |_) |  __// , . \ / , . \| || (_| | | | | | | | | | | | | |_ 
-|___/\__,_|\/|_|\( ) .__/ \___|\/|_|\/ \/|_|\/ \__\__, |_| |_| |_| |_| |_| |_|\__|
-                 |/| |                             __/ |    _/ |                  
-                   |_|                            |___/    |__/                   
+
+     _       _ _           _       _        _       __             
+    | |     (_) |       /\| |/\ /\| |/\    (_)     / _|            
+  __| |_   _ _| | _____ \ ` ' / \ ` ' / ___ _  ___| |_ _   _ _   _ 
+ / _` | | | | | |/ / _ \_     _|_     _/ _ \ |/ _ \  _| | | | | | |
+| (_| | |_| | |   <  __// , . \ / , . \  __/ |  __/ | | |_| | |_| |
+ \__,_|\__,_| |_|\_\___|\/|_|\/ \/|_|\/\___|_|\___|_|  \__, |\__,_|
+           _/ |                                         __/ |      
+          |__/                                         |___/                     
 
       (the password is case sensitive)
 
@@ -59,35 +60,38 @@
 
   Thanks to: 
 
-  http://patorjk.com/software/taag/
+  http://patorjk.com/software/taag/   (Doom and Doh)
   http://www.mobilefish.com/services/steganography/steganography.php
                                               
   Just incase you missed it, 
 
   THE PASSWORD IS:                                                                                                                                                                                                                                                                                            
-                                                                                                                                                         tttt                             hhhhhhh              jjjj    ffffffffffffffff                                tttt         
-                                                                                                                                                      ttt:::t                             h:::::h             j::::j  f::::::::::::::::f                            ttt:::t          
-                                                                                                                                                      t:::::t                             h:::::h              jjjj  f::::::::::::::::::f                           t:::::t          
-                                  ******         ******                                               ******         ************         ******      t:::::t                             h:::::h                    f::::::fffffff:::::f                           t:::::t          
-    ssssssssss     aaaaaaaaaaaaa  *:::::*       *:::::*       ppppp   ppppppppp       eeeeeeeeeeee    *:::::*       *:::::**:::::*       *:::::*ttttttt:::::ttttttt       ggggggggg   gggggh::::h hhhhh      jjjjjjj f:::::f       ffffffmmmmmmm    mmmmmmm   ttttttt:::::ttttttt    
-  ss::::::::::s    a::::::::::::a ***::::*******::::***       p::::ppp:::::::::p    ee::::::::::::ee  ***::::*******::::******::::*******::::***t:::::::::::::::::t      g:::::::::ggg::::gh::::hh:::::hhh   j:::::j f:::::f           mm:::::::m  m:::::::mm t:::::::::::::::::t    
-ss:::::::::::::s   aaaaaaaaa:::::a   **:::::::::::**          p:::::::::::::::::p  e::::::eeeee:::::ee   **:::::::::::**      **:::::::::::**   t:::::::::::::::::t     g:::::::::::::::::gh::::::::::::::hh  j::::jf:::::::ffffff    m::::::::::mm::::::::::mt:::::::::::::::::t    
-s::::::ssss:::::s           a::::a******:::::::::******       pp::::::ppppp::::::pe::::::e     e:::::e******:::::::::************:::::::::******tttttt:::::::tttttt    g::::::ggggg::::::ggh:::::::hhh::::::h j::::jf::::::::::::f    m::::::::::::::::::::::mtttttt:::::::tttttt    
- s:::::s  ssssss     aaaaaaa:::::a*:::::::::::::::::::*        p:::::p     p:::::pe:::::::eeeee::::::e*:::::::::::::::::::**:::::::::::::::::::*      t:::::t          g:::::g     g:::::g h::::::h   h::::::hj::::jf::::::::::::f    m:::::mmm::::::mmm:::::m      t:::::t          
-   s::::::s        aa::::::::::::a******:::::::::******        p:::::p     p:::::pe:::::::::::::::::e ******:::::::::************:::::::::******      t:::::t          g:::::g     g:::::g h:::::h     h:::::hj::::jf:::::::ffffff    m::::m   m::::m   m::::m      t:::::t          
-      s::::::s    a::::aaaa::::::a   **:::::::::::**           p:::::p     p:::::pe::::::eeeeeeeeeee     **:::::::::::**      **:::::::::::**         t:::::t          g:::::g     g:::::g h:::::h     h:::::hj::::j f:::::f          m::::m   m::::m   m::::m      t:::::t          
-ssssss   s:::::s a::::a    a:::::a***::::*******::::***        p:::::p    p::::::pe:::::::e           ***::::*******::::******::::*******::::***      t:::::t    ttttttg::::::g    g:::::g h:::::h     h:::::hj::::j f:::::f          m::::m   m::::m   m::::m      t:::::t    tttttt
-s:::::ssss::::::sa::::a    a:::::a*:::::*       *:::::* ,,,,,, p:::::ppppp:::::::pe::::::::e          *:::::*       *:::::**:::::*       *:::::*      t::::::tttt:::::tg:::::::ggggg:::::g h:::::h     h:::::hj::::jf:::::::f         m::::m   m::::m   m::::m      t::::::tttt:::::t
-s::::::::::::::s a:::::aaaa::::::a******         ****** ,::::, p::::::::::::::::p  e::::::::eeeeeeee  ******         ************         ******      tt::::::::::::::t g::::::::::::::::g h:::::h     h:::::hj::::jf:::::::f         m::::m   m::::m   m::::m      tt::::::::::::::t
- s:::::::::::ss   a::::::::::aa:::a                     ,::::, p::::::::::::::pp    ee:::::::::::::e                                                    tt:::::::::::tt  gg::::::::::::::g h:::::h     h:::::hj::::jf:::::::f         m::::m   m::::m   m::::m        tt:::::::::::tt
-  sssssssssss      aaaaaaaaaa  aaaa                     ,:::,, p::::::pppppppp        eeeeeeeeeeeeee                                                      ttttttttttt      gggggggg::::::g hhhhhhh     hhhhhhhj::::jfffffffff         mmmmmm   mmmmmm   mmmmmm          ttttttttttt  
-                                                       ,:::,   p:::::p                                                                                                             g:::::g                    j::::j                                                                 
-                                                       ,,,,    p:::::p                                                                                                 gggggg      g:::::g          jjjj      j::::j                                                                 
-                                                              p:::::::p                                                                                                g:::::gg   gg:::::g         j::::jj   j:::::j                                                                 
-                                                              p:::::::p                                                                                                 g::::::ggg:::::::g         j::::::jjj::::::j                                                                 
-                                                              p:::::::p                                                                                                  gg:::::::::::::g           jj::::::::::::j                                                                  
-                                                              ppppppppp                                                                                                    ggg::::::ggg               jjj::::::jjj                                                                   
-                                                                                                                                                                              gggggg                     jjjjjj                                                                      
+
+                                                                                                                                                                                                                                         
+            dddddddd                                                                                                                                                                                                                     
+            d::::::d                   jjjj kkkkkkkk                                                                                           iiii                         ffffffffffffffff                                             
+            d::::::d                  j::::jk::::::k                                                                                          i::::i                       f::::::::::::::::f                                            
+            d::::::d                   jjjj k::::::k                                                                                           iiii                       f::::::::::::::::::f                                           
+            d:::::d                         k::::::k                            ******         ************         ******                                                f::::::fffffff:::::f                                           
+    ddddddddd:::::d uuuuuu    uuuuuu jjjjjjj k:::::k    kkkkkkk eeeeeeeeeeee    *:::::*       *:::::**:::::*       *:::::*    eeeeeeeeeeee   iiiiiii     eeeeeeeeeeee     f:::::f       ffffffyyyyyyy           yyyyyyyuuuuuu    uuuuuu  
+  dd::::::::::::::d u::::u    u::::u j:::::j k:::::k   k:::::kee::::::::::::ee  ***::::*******::::******::::*******::::***  ee::::::::::::ee i:::::i   ee::::::::::::ee   f:::::f              y:::::y         y:::::y u::::u    u::::u  
+ d::::::::::::::::d u::::u    u::::u  j::::j k:::::k  k:::::ke::::::eeeee:::::ee   **:::::::::::**      **:::::::::::**    e::::::eeeee:::::eei::::i  e::::::eeeee:::::eef:::::::ffffff         y:::::y       y:::::y  u::::u    u::::u  
+d:::::::ddddd:::::d u::::u    u::::u  j::::j k:::::k k:::::ke::::::e     e:::::e******:::::::::************:::::::::******e::::::e     e:::::ei::::i e::::::e     e:::::ef::::::::::::f          y:::::y     y:::::y   u::::u    u::::u  
+d::::::d    d:::::d u::::u    u::::u  j::::j k::::::k:::::k e:::::::eeeee::::::e*:::::::::::::::::::**:::::::::::::::::::*e:::::::eeeee::::::ei::::i e:::::::eeeee::::::ef::::::::::::f           y:::::y   y:::::y    u::::u    u::::u  
+d:::::d     d:::::d u::::u    u::::u  j::::j k:::::::::::k  e:::::::::::::::::e ******:::::::::************:::::::::******e:::::::::::::::::e i::::i e:::::::::::::::::e f:::::::ffffff            y:::::y y:::::y     u::::u    u::::u  
+d:::::d     d:::::d u::::u    u::::u  j::::j k:::::::::::k  e::::::eeeeeeeeeee     **:::::::::::**      **:::::::::::**   e::::::eeeeeeeeeee  i::::i e::::::eeeeeeeeeee   f:::::f                   y:::::y:::::y      u::::u    u::::u  
+d:::::d     d:::::d u:::::uuuu:::::u  j::::j k::::::k:::::k e:::::::e           ***::::*******::::******::::*******::::***e:::::::e           i::::i e:::::::e            f:::::f                    y:::::::::y       u:::::uuuu:::::u  
+d::::::ddddd::::::ddu:::::::::::::::uuj::::jk::::::k k:::::ke::::::::e          *:::::*       *:::::**:::::*       *:::::*e::::::::e         i::::::ie::::::::e          f:::::::f                    y:::::::y        u:::::::::::::::uu
+ d:::::::::::::::::d u:::::::::::::::uj::::jk::::::k  k:::::ke::::::::eeeeeeee  ******         ************         ****** e::::::::eeeeeeee i::::::i e::::::::eeeeeeee  f:::::::f                     y:::::y          u:::::::::::::::u
+  d:::::::::ddd::::d  uu::::::::uu:::uj::::jk::::::k   k:::::kee:::::::::::::e                                              ee:::::::::::::e i::::::i  ee:::::::::::::e  f:::::::f                    y:::::y            uu::::::::uu:::u
+   ddddddddd   ddddd    uuuuuuuu  uuuuj::::jkkkkkkkk    kkkkkkk eeeeeeeeeeeeee                                                eeeeeeeeeeeeee iiiiiiii    eeeeeeeeeeeeee  fffffffff                   y:::::y               uuuuuuuu  uuuu
+                                      j::::j                                                                                                                                                        y:::::y                              
+                            jjjj      j::::j                                                                                                                                                       y:::::y                               
+                           j::::jj   j:::::j                                                                                                                                                      y:::::y                                
+                           j::::::jjj::::::j                                                                                                                                                     y:::::y                                 
+                            jj::::::::::::j                                                                                                                                                     yyyyyyy                                  
+                              jjj::::::jjj                                                                                                                                                                                               
+                                 jjjjjj                                                                                                                                                                                                  
 
 
 */
