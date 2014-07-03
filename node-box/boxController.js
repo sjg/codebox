@@ -23,8 +23,7 @@ serialPort.open(function () {
   console.log('Connecting to the Box Server');
   
   var io = require('socket.io-client'),
-  socket = io.connect('http://www.stevenjamesgray.com:8888', {
-  });
+  socket = io.connect('http://www.stevenjamesgray.com:8888');
 
   socket.on('connect', function () { 	
 	console.log("Box Controller connected to server.");
