@@ -22,7 +22,7 @@ The small red dot on the webpage will turn green when the server is connected.  
 ##Running the Box Controller
 The box has a small front facing servo attached to the clasp of the box which turns to open and close the box.  This script tells the arduino which is attached to the raspberry pi to turn the servo on the serial port specified inside the script.  To run type the following:
 
-* node boxController.js
+* node boxController.js --port=/dev/ttyACM0 (whatever your arduino serial port is)
 
 ##Surprises
 Many surprises await you in the repository; you just need to find them!
