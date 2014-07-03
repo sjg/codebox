@@ -11,7 +11,7 @@ CodeBox is a game where children follow the worksheet to figure out the password
 ##Running the BoxServer
 This is the socket server that tunnels the requests from the webpage to the physical box in the front of the room.  To run the server then type the following:
 
-* node boxServer.js --key=<keyToOpenBox>
+* node boxServer.js --key=keyToOpenBox
 
 The small red dot on the webpage will turn green when the server is connected.  Change domains in index.html to point to your domain/server as need be.  Change the port number if needed - default is 8888.
 
