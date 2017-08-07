@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "b3b6b54f-d313-4849-ab02-accf26988304",
+      "data": [
+        {
+          "text": "please open the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53cf96e3-6fb6-4927-9498-f607662f4cd4",
+      "data": [
+        {
+          "text": "can you open the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a165145e-6e72-4414-aa0d-93149613aaea",
+      "data": [
+        {
+          "text": "open sesame"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "256ac1ad-1952-4925-bd1f-8706caf99ccd",
+      "data": [
+        {
+          "text": "open"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ba0cb2d-08af-4027-8565-54fc3ec5c06e",
+      "data": [
+        {
+          "text": "open the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "04c5ff43-275b-4cd1-b1ce-1b162f12ab04",
+  "name": "open",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "open_box",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "open_box"
+    }
+  ]
+}

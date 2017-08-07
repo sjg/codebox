@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "095d8c69-7a76-47f5-af2a-70c5cf7fb9ec",
+      "data": [
+        {
+          "text": "talk to code box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f67abbab-16fc-438b-ab83-009dfbe03765",
+      "data": [
+        {
+          "text": "open codebox"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85edf302-6ced-495a-a803-1b5f6506b2fd",
+      "data": [
+        {
+          "text": "talk to codebox"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6e9862df-66b9-4727-8fb5-4ecb1040c459",
+  "name": "default_welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Goo",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hey there Steve. Welcome to the Codebox",
+            "Good Afternoon Steve, what would you like me to do?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

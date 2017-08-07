@@ -1,0 +1,24 @@
+{
+  "domain": "smalltalk",
+  "customResponses": [
+    {
+      "action": "smalltalk.person",
+      "parameters": [
+        "simplified: who are you",
+        "simplified: let us talk about you"
+      ],
+      "customAnswers": [
+        "Hi I\u0027m Code box, Steve\u0027s partner in crime!"
+      ]
+    },
+    {
+      "action": "smalltalk.greetings",
+      "parameters": [
+        "simplified: goodbye"
+      ],
+      "customAnswers": [
+        "Bye everyone.  You know where I am if you need me!"
+      ]
+    }
+  ]
+}

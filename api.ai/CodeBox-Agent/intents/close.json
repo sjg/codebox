@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "39bd7010-7861-418a-8dcd-7d31562b6846",
+      "data": [
+        {
+          "text": "can you close the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01d0a09d-ddfe-42b9-b385-e45d5d2f4b3d",
+      "data": [
+        {
+          "text": "could you close the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3923380c-eb1f-406a-88fb-15d10d103af8",
+      "data": [
+        {
+          "text": "please can you close the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88ffff90-9fe6-4b64-8957-e7ef79774ffe",
+      "data": [
+        {
+          "text": "close"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26cafdb1-4547-4467-82fc-609033dfc2bb",
+      "data": [
+        {
+          "text": "close the box"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "18eb4f4a-d021-4f3d-bfe7-92afbd62f9ca",
+  "name": "close",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "close_box",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

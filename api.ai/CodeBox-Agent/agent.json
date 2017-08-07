@@ -1,0 +1,45 @@
+{
+  "description": "Can you open and Close the Codebox?",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "CodeBox",
+    "project": "tfltalky",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "04c5ff43-275b-4cd1-b1ce-1b162f12ab04",
+        "signInRequired": false
+      },
+      {
+        "intentId": "18eb4f4a-d021-4f3d-bfe7-92afbd62f9ca",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "FEMALE_1",
+    "capabilities": [],
+    "protocolVersion": "V1"
+  },
+  "defaultTimezone": "GB",
+  "webhook": {
+    "url": "https://media.stevenjamesgray.com/api-codebox/control",
+    "headers": {
+      "authKey": "^hoftVInsertAuthKeyHERE{",
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}
